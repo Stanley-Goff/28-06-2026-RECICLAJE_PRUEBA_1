@@ -11,7 +11,7 @@ st.title("Clasificación de imágenes - Reciclaje - Servicio en la nube")
 st.write("Suba una imagen para clasificarla con el modelo MobileNetV2 entrenado.")
 
 IMG_SIZE = (224, 224)
-MODEL_DIR = Path("modelo_reciclaje_mobilenet")
+MODEL_DIR = Path("modelo_reciclaje_mobilnet")
 CLASS_PATH = MODEL_DIR / "class_names.json"
 MODEL_PATHS = [MODEL_DIR / "waste_mobilenet.keras", MODEL_DIR / "waste_mobilenet.h5"]
 
